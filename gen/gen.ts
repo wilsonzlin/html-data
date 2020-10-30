@@ -78,7 +78,7 @@ const processReactTypeDeclarations = (source: SourceFile): Data => {
           continue;
         }
         const name = getNameOfNode(m) ?? '';
-        if (!/^[a-zA-Z]+$/.test(name)) {
+        if (!/^[a-zA-Z0-9]+$/.test(name)) {
           continue;
         }
         const type = assertExists(getAsKind<SyntaxKind.TypeReference, TypeReferenceNode>(m.type, SyntaxKind.TypeReference));
@@ -88,7 +88,7 @@ const processReactTypeDeclarations = (source: SourceFile): Data => {
       }
       continue;
     }
-    const matches = /^([A-Za-z]*)(HTML|SVG)Attributes/.exec(typeName);
+    const matches = /^([A-Za-z0-9]*)(HTML|SVG)Attributes/.exec(typeName);
     if (!matches) {
       continue;
     }
