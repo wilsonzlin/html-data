@@ -78,7 +78,7 @@ const processReactTypeDeclarations = (source: SourceFile): Data => {
           continue;
         }
         const name = getNameOfNode(m) ?? '';
-        if (!/^[a-zA-Z0-9]+$/.test(name)) {
+        if (!/^[a-zA-Z0-9]+$/.test(name) || name === 'webview') {
           continue;
         }
         const type = assertExists(getAsKind<SyntaxKind.TypeReference, TypeReferenceNode>(m.type, SyntaxKind.TypeReference));
