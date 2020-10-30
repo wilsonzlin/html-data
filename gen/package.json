@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "gen": "ts-node gen"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "@types/react": "16.9.55",
+    "extlib": "^0.6.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}

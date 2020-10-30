@@ -1,0 +1,26 @@
+{
+  "name": "@wzlin/html-data",
+  "version": "2020103001.0.0",
+  "description": "HTML tags and attributes",
+  "main": "data.json",
+  "types": "data.d.ts",
+  "files": [
+    "data.d.ts",
+    "data.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonzlin/html-data.git"
+  },
+  "author": {
+    "email": "npm@wilsonl.in",
+    "name": "Wilson Lin",
+    "url": "https://wilsonl.in/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsonzlin/html-data/issues"
+  },
+  "homepage": "https://github.com/wilsonzlin/html-data#readme"
+}
+
