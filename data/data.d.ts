@@ -8,9 +8,14 @@ type AttrConfig = {
 };
 
 type Data = {
-  [attr: string]: {
-    [ns in Namespace]: {
-      [tag: string]: AttrConfig,
+  tags: {
+    [ns in Namespace]: string[]
+  },
+  attributes: {
+    [attr: string]: {
+      [ns in Namespace]: {
+        [tag: string]: AttrConfig,
+      }
     }
   }
 };
