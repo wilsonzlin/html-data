@@ -7,7 +7,7 @@ type AttrConfig = {
   defaultValue?: string;
 };
 
-type Data = {
+declare const _data: {
   tags: {
     [ns in Namespace]: string[]
   },
@@ -20,4 +20,4 @@ type Data = {
   }
 };
 
-export = Data;
+export = _data;
