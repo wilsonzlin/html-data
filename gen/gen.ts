@@ -41,6 +41,7 @@ const reactSpecificAttributes = [
 const collapsibleAndTrimmable = {
   'class': ['html:*'],
   'd': ['svg:*'],
+  'style': ['html:*', 'svg:*'],
 };
 
 // TODO Is escapedText the API for getting name?
@@ -51,8 +52,8 @@ const prettyJson = (val: any) => JSON.stringify(val, null, 2);
 const getAsKind = <K extends SyntaxKind, T extends Node & { kind: K }> (n: Node | undefined, k: K): T | undefined =>
   n?.kind !== k ? undefined : n as T;
 
-const processReactTypeDeclarations = (source: SourceFile): Data => {
-  const data: Data = {
+const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
+  const data: typeof Data = {
     attributes: {},
     tags: {html: [], svg: []},
   };
@@ -127,7 +128,7 @@ const processReactTypeDeclarations = (source: SourceFile): Data => {
 
       const boolean = types.includes(SyntaxKind.BooleanKeyword);
       // If types includes boolean and string, make it a boolean attr to prevent it from being removed if empty value.
-      const redundantIfEmpty = !boolean && types.some(t => t === SyntaxKind.StringKeyword || t === SyntaxKind.NumberKeyword);
+      const redundantIfEmpty = attrName == "style" || (!boolean && types.some(t => t === SyntaxKind.StringKeyword || t === SyntaxKind.NumberKeyword));
       const defaultValues = (defaultAttributeValues[attrName] || [])
         .filter(a => a.tags.includes(fullyQualifiedTagName))
         .map(a => a.defaultValue);

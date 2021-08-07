@@ -142,15 +142,15 @@
       "html": {
         "*": {
           "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true,
+          "collapseAndTrim": true
         }
       },
       "svg": {
         "*": {
           "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true,
+          "collapseAndTrim": true
         }
       }
     },
@@ -204,14 +204,14 @@
       "html": {
         "*": {
           "boolean": false,
-          "redundantIfEmpty": true,
+          "redundantIfEmpty": false,
           "collapseAndTrim": false
         }
       },
       "svg": {
         "*": {
           "boolean": false,
-          "redundantIfEmpty": true,
+          "redundantIfEmpty": false,
           "collapseAndTrim": false
         }
       }
@@ -525,6 +525,11 @@
           "redundantIfEmpty": true,
           "collapseAndTrim": false
         },
+        "meta": {
+          "boolean": false,
+          "redundantIfEmpty": true,
+          "collapseAndTrim": false
+        },
         "source": {
           "boolean": false,
           "redundantIfEmpty": true,
@@ -579,7 +584,7 @@
       "html": {
         "a": {
           "boolean": false,
-          "redundantIfEmpty": true,
+          "redundantIfEmpty": false,
           "collapseAndTrim": false,
           "defaultValue": "_self"
         },
@@ -1683,6 +1688,16 @@
       },
       "svg": {}
     },
+    "enterkeyhint": {
+      "html": {
+        "input": {
+          "boolean": false,
+          "redundantIfEmpty": false,
+          "collapseAndTrim": false
+        }
+      },
+      "svg": {}
+    },
     "list": {
       "html": {
         "input": {
@@ -2446,6 +2461,16 @@
       "svg": {}
     },
     "disablepictureinpicture": {
+      "html": {
+        "video": {
+          "boolean": true,
+          "redundantIfEmpty": false,
+          "collapseAndTrim": false
+        }
+      },
+      "svg": {}
+    },
+    "disableremoteplayback": {
       "html": {
         "video": {
           "boolean": true,
