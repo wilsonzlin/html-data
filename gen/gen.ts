@@ -41,7 +41,7 @@ const reactSpecificAttributes = [
 const collapsibleAndTrimmable = {
   'class': ['html:*'],
   'd': ['svg:*'],
-  'style': ['html:*', 'svg:*'],
+  // WARNING: "style" attribute is not collapsible. It is trimmable though.
 };
 
 // TODO Is escapedText the API for getting name?
