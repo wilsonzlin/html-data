@@ -1,0 +1,132 @@
+align:
+  - tags:
+      - html:img
+    defaultValue: bottom
+
+class:
+  - tags:
+      - html:*
+    isCollapsible: true
+    isTrimmable: true
+
+d:
+  - tags:
+      - svg:*
+    isCollapsible: true
+    isTrimmable: true
+
+decoding:
+  - tags:
+      - html:img
+    defaultValue: auto
+
+enctype:
+  - tags:
+      - html:form
+    defaultValue: application/x-www-form-urlencoded
+
+frameborder:
+  - tags:
+      - html:iframe
+    defaultValue: "1"
+    isPositiveInteger: true
+
+formenctype:
+  - tags:
+      - html:button
+      - html:input
+    defaultValue: application/x-www-form-urlencoded
+
+height:
+  - tags:
+      - html:iframe
+    defaultValue: "150"
+    isPositiveInteger: true
+
+importance:
+  - tags:
+      - html:iframe
+    defaultValue: auto
+
+loading:
+  - tags:
+      - html:iframe
+      - html:img
+    defaultValue: eager
+
+media:
+  - tags:
+      - html:style
+    defaultValue: all
+
+method:
+  - tags:
+      - html:form
+    defaultValue: get
+
+referrerpolicy:
+  - tags:
+      - html:iframe
+      - html:img
+    defaultValue: no-referrer-when-downgrade
+
+rules:
+  - tags:
+      - html:table
+    defaultValue: none
+
+shape:
+  - tags:
+      - html:area
+    defaultValue: rect
+
+span:
+  - tags:
+      - html:col
+      - html:colgroup
+    defaultValue: "1"
+    isPositiveInteger: true
+
+style:
+  - tags:
+      - html:*
+      - svg:*
+    isTrimmable: true
+    isRedundantIfEmpty: true
+    # [style] is not collapsible.
+
+target:
+  - tags:
+      - html:a
+      - html:form
+    defaultValue: _self
+
+type:
+  - tags:
+      - html:button
+    defaultValue: submit
+    isCaseInsensitive: true
+    isTrimmable: true
+
+  - tags:
+      - html:input
+    defaultValue: text
+    isCaseInsensitive: true
+    # input[type] is not trimmable (Firefox 90).
+
+  - tags:
+      - html:link
+      - html:style
+    defaultValue: text/css
+
+  - tags:
+      - html:script
+    isCaseInsensitive: true
+    isTrimmable: true # Firefox 90.
+    # script[type] has multiple default values (https://mimesniff.spec.whatwg.org/#javascript-mime-type).
+
+width:
+  - tags:
+      - html:iframe
+    defaultValue: "300"
+    isPositiveInteger: true

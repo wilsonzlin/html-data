@@ -3,9 +3,7 @@
     "accesskey": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -13,35 +11,27 @@
     "class": {
       "html": {
         "*": {
-          "boolean": false,
+          "collapse": true,
           "redundantIfEmpty": true,
-          "collapseAndTrim": true
+          "trim": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "contenteditable": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "contextmenu": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -49,29 +39,21 @@
     "dir": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "draggable": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "hidden": {
       "html": {
         "*": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -79,41 +61,31 @@
     "id": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "lang": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "placeholder": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -121,107 +93,77 @@
     "slot": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "spellcheck": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "style": {
       "html": {
         "*": {
-          "boolean": false,
           "redundantIfEmpty": true,
-          "collapseAndTrim": true
+          "trim": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
           "redundantIfEmpty": true,
-          "collapseAndTrim": true
+          "trim": true
         }
       }
     },
     "tabindex": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "title": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "translate": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "radiogroup": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "role": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "about": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -229,29 +171,21 @@
     "datatype": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "inlist": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "prefix": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -259,9 +193,7 @@
     "property": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -269,9 +201,7 @@
     "resource": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -279,9 +209,7 @@
     "typeof": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -289,9 +217,7 @@
     "vocab": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -299,9 +225,7 @@
     "autocapitalize": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -309,9 +233,7 @@
     "autocorrect": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -319,9 +241,7 @@
     "autosave": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -329,25 +249,19 @@
     "color": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "itemprop": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -355,9 +269,7 @@
     "itemscope": {
       "html": {
         "*": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -365,9 +277,7 @@
     "itemtype": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -375,9 +285,7 @@
     "itemid": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -385,9 +293,7 @@
     "itemref": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -395,9 +301,7 @@
     "results": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -405,105 +309,69 @@
     "security": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "unselectable": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "inputmode": {
       "html": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       },
       "svg": {}
     },
     "is": {
       "html": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "download": {
       "html": {
-        "a": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
-        "area": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "a": {},
+        "area": {}
       },
       "svg": {}
     },
     "href": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "base": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "hreflang": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -511,51 +379,35 @@
     "media": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meta": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "source": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "style": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "all"
+          "defaultValue": "all",
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "ping": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -563,19 +415,13 @@
     "rel": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -583,159 +429,98 @@
     "target": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
           "defaultValue": "_self"
         },
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "base": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "_self"
+          "defaultValue": "_self",
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "type": {
       "html": {
         "a": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
-          "defaultValue": "submit"
+          "caseInsensitive": true,
+          "defaultValue": "submit",
+          "trim": true
         },
         "embed": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "text"
+          "caseInsensitive": true,
+          "defaultValue": "text",
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "text/css"
+          "defaultValue": "text/css",
+          "redundantIfEmpty": true
         },
         "menu": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
-        "ol": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
+        "ol": {},
         "script": {
-          "boolean": false,
+          "caseInsensitive": true,
           "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "trim": true
         },
         "source": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "style": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "text/css"
+          "defaultValue": "text/css",
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "referrerpolicy": {
       "html": {
-        "a": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
-        "area": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
+        "a": {},
+        "area": {},
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
           "defaultValue": "no-referrer-when-downgrade"
         },
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
           "defaultValue": "no-referrer-when-downgrade"
         },
-        "link": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
-        "script": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "link": {},
+        "script": {}
       },
       "svg": {}
     },
     "alt": {
       "html": {
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -743,9 +528,7 @@
     "coords": {
       "html": {
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -753,10 +536,8 @@
     "shape": {
       "html": {
         "area": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "rect"
+          "defaultValue": "rect",
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -764,24 +545,16 @@
     "cite": {
       "html": {
         "blockquote": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "del": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "ins": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "quote": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -789,29 +562,19 @@
     "autofocus": {
       "html": {
         "button": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "keygen": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "select": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "textarea": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -819,44 +582,28 @@
     "disabled": {
       "html": {
         "button": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "fieldset": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "keygen": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "optgroup": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "option": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "select": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "textarea": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -864,54 +611,34 @@
     "form": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "fieldset": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "keygen": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "label": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "output": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "select": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -919,14 +646,10 @@
     "formaction": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -934,16 +657,12 @@
     "formenctype": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "application/x-www-form-urlencoded"
+          "defaultValue": "application/x-www-form-urlencoded",
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "application/x-www-form-urlencoded"
+          "defaultValue": "application/x-www-form-urlencoded",
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -951,14 +670,10 @@
     "formmethod": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -966,14 +681,10 @@
     "formnovalidate": {
       "html": {
         "button": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -981,14 +692,10 @@
     "formtarget": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -996,135 +703,85 @@
     "name": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "fieldset": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "keygen": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "map": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meta": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "output": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "param": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "select": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "slot": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "value": {
       "html": {
         "button": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "data": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "li": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "option": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "param": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "progress": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "select": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1132,130 +789,86 @@
     "height": {
       "html": {
         "canvas": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "embed": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "150"
+          "defaultValue": "150",
+          "redundantIfEmpty": true
         },
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "video": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "width": {
       "html": {
         "canvas": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "col": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "embed": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "300"
+          "defaultValue": "300",
+          "redundantIfEmpty": true
         },
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "table": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "video": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "span": {
       "html": {
         "col": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "1"
+          "defaultValue": "1",
+          "redundantIfEmpty": true
         },
         "colgroup": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "1"
+          "defaultValue": "1",
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1263,19 +876,13 @@
     "datetime": {
       "html": {
         "del": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "ins": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "time": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1283,69 +890,45 @@
     "open": {
       "html": {
         "details": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "dialog": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
     },
     "ontoggle": {
       "html": {
-        "details": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "details": {}
       },
       "svg": {}
     },
     "src": {
       "html": {
         "embed": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "media": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "script": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "source": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "track": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1353,9 +936,7 @@
     "acceptcharset": {
       "html": {
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1363,9 +944,7 @@
     "action": {
       "html": {
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1373,24 +952,16 @@
     "autocomplete": {
       "html": {
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "select": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1398,10 +969,8 @@
     "enctype": {
       "html": {
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "application/x-www-form-urlencoded"
+          "defaultValue": "application/x-www-form-urlencoded",
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1409,26 +978,20 @@
     "method": {
       "html": {
         "form": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "get"
+          "defaultValue": "get",
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "novalidate": {
       "html": {
         "form": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1436,9 +999,7 @@
     "manifest": {
       "html": {
         "html": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1446,9 +1007,7 @@
     "allow": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1456,9 +1015,7 @@
     "allowfullscreen": {
       "html": {
         "iframe": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1466,9 +1023,7 @@
     "allowtransparency": {
       "html": {
         "iframe": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1476,10 +1031,8 @@
     "frameborder": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false,
-          "defaultValue": "1"
+          "defaultValue": "1",
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1487,15 +1040,9 @@
     "loading": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
           "defaultValue": "eager"
         },
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
           "defaultValue": "eager"
         }
       },
@@ -1504,9 +1051,7 @@
     "marginheight": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1514,9 +1059,7 @@
     "marginwidth": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1524,9 +1067,7 @@
     "sandbox": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1534,9 +1075,7 @@
     "scrolling": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1544,9 +1083,7 @@
     "seamless": {
       "html": {
         "iframe": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1554,55 +1091,34 @@
     "srcdoc": {
       "html": {
         "iframe": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "crossorigin": {
       "html": {
-        "img": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
+        "img": {},
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "media": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "script": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "decoding": {
       "html": {
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false,
           "defaultValue": "auto"
         }
       },
@@ -1611,19 +1127,13 @@
     "sizes": {
       "html": {
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "source": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1631,14 +1141,10 @@
     "srcset": {
       "html": {
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "source": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1646,14 +1152,10 @@
     "usemap": {
       "html": {
         "img": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1661,9 +1163,7 @@
     "accept": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1671,9 +1171,7 @@
     "capture": {
       "html": {
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1681,29 +1179,21 @@
     "checked": {
       "html": {
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
     },
     "enterkeyhint": {
       "html": {
-        "input": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "input": {}
       },
       "svg": {}
     },
     "list": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1711,40 +1201,28 @@
     "max": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "progress": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "maxlength": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1752,35 +1230,25 @@
     "min": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "minlength": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1788,14 +1256,10 @@
     "multiple": {
       "html": {
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "select": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1803,9 +1267,7 @@
     "pattern": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1813,14 +1275,10 @@
     "readonly": {
       "html": {
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "textarea": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1828,19 +1286,13 @@
     "required": {
       "html": {
         "input": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "select": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "textarea": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1848,14 +1300,10 @@
     "size": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "select": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1863,39 +1311,23 @@
     "step": {
       "html": {
         "input": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "onchange": {
       "html": {
-        "input": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
-        "select": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
-        "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "input": {},
+        "select": {},
+        "textarea": {}
       },
       "svg": {}
     },
     "challenge": {
       "html": {
         "keygen": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1903,9 +1335,7 @@
     "keytype": {
       "html": {
         "keygen": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1913,9 +1343,7 @@
     "keyparams": {
       "html": {
         "keygen": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1923,14 +1351,10 @@
     "htmlfor": {
       "html": {
         "label": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "output": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1938,9 +1362,7 @@
     "as": {
       "html": {
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1948,14 +1370,10 @@
     "integrity": {
       "html": {
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "script": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1963,19 +1381,13 @@
     "charset": {
       "html": {
         "link": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "meta": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "script": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -1983,9 +1395,7 @@
     "autoplay": {
       "html": {
         "media": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -1993,9 +1403,7 @@
     "controls": {
       "html": {
         "media": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2003,9 +1411,7 @@
     "controlslist": {
       "html": {
         "media": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2013,9 +1419,7 @@
     "loop": {
       "html": {
         "media": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2023,9 +1427,7 @@
     "mediagroup": {
       "html": {
         "media": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2033,9 +1435,7 @@
     "muted": {
       "html": {
         "media": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2043,14 +1443,10 @@
     "playsinline": {
       "html": {
         "media": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         },
         "video": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2058,9 +1454,7 @@
     "preload": {
       "html": {
         "media": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2068,9 +1462,7 @@
     "content": {
       "html": {
         "meta": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2078,9 +1470,7 @@
     "httpequiv": {
       "html": {
         "meta": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2088,9 +1478,7 @@
     "high": {
       "html": {
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2098,9 +1486,7 @@
     "low": {
       "html": {
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2108,9 +1494,7 @@
     "optimum": {
       "html": {
         "meter": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2118,9 +1502,7 @@
     "classid": {
       "html": {
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2128,9 +1510,7 @@
     "data": {
       "html": {
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2138,9 +1518,7 @@
     "wmode": {
       "html": {
         "object": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2148,9 +1526,7 @@
     "reversed": {
       "html": {
         "ol": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2158,9 +1534,7 @@
     "start": {
       "html": {
         "ol": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2168,19 +1542,13 @@
     "label": {
       "html": {
         "optgroup": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "option": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "track": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2188,9 +1556,7 @@
     "selected": {
       "html": {
         "option": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2198,9 +1564,7 @@
     "async": {
       "html": {
         "script": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2208,9 +1572,7 @@
     "defer": {
       "html": {
         "script": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2218,9 +1580,7 @@
     "nomodule": {
       "html": {
         "script": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2228,14 +1588,10 @@
     "nonce": {
       "html": {
         "script": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "style": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2243,9 +1599,7 @@
     "scoped": {
       "html": {
         "style": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2253,9 +1607,7 @@
     "cellpadding": {
       "html": {
         "table": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2263,9 +1615,7 @@
     "cellspacing": {
       "html": {
         "table": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2273,39 +1623,25 @@
     "summary": {
       "html": {
         "table": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "align": {
       "html": {
-        "td": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        },
-        "th": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "td": {},
+        "th": {}
       },
       "svg": {}
     },
     "colspan": {
       "html": {
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "th": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2313,14 +1649,10 @@
     "headers": {
       "html": {
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "th": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2328,14 +1660,10 @@
     "rowspan": {
       "html": {
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "th": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2343,14 +1671,10 @@
     "scope": {
       "html": {
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "th": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2358,34 +1682,24 @@
     "abbr": {
       "html": {
         "td": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         },
         "th": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
     },
     "valign": {
       "html": {
-        "td": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "td": {}
       },
       "svg": {}
     },
     "cols": {
       "html": {
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2393,9 +1707,7 @@
     "dirname": {
       "html": {
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2403,9 +1715,7 @@
     "rows": {
       "html": {
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2413,9 +1723,7 @@
     "wrap": {
       "html": {
         "textarea": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2423,9 +1731,7 @@
     "default": {
       "html": {
         "track": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2433,9 +1739,7 @@
     "kind": {
       "html": {
         "track": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2443,9 +1747,7 @@
     "srclang": {
       "html": {
         "track": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2453,9 +1755,7 @@
     "poster": {
       "html": {
         "video": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       },
       "svg": {}
@@ -2463,9 +1763,7 @@
     "disablepictureinpicture": {
       "html": {
         "video": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2473,9 +1771,7 @@
     "disableremoteplayback": {
       "html": {
         "video": {
-          "boolean": true,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
+          "boolean": true
         }
       },
       "svg": {}
@@ -2484,59 +1780,39 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "accumulate": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "additive": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "alignmentbaseline": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "allowreorder": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "alphabetic": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2544,29 +1820,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "arabicform": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "ascent": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2574,9 +1842,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2584,29 +1850,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "autoreverse": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "azimuth": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2614,9 +1872,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2624,9 +1880,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2634,9 +1888,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2644,9 +1896,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2654,9 +1904,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2664,9 +1912,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2674,9 +1920,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2684,9 +1928,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2694,9 +1936,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2704,9 +1944,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2714,9 +1952,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2724,9 +1960,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2734,9 +1968,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2744,29 +1976,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "colorinterpolationfilters": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "colorprofile": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2774,9 +1998,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2784,9 +2006,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2794,9 +2014,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2804,9 +2022,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2814,9 +2030,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2824,9 +2038,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2834,9 +2046,9 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
+          "collapse": true,
           "redundantIfEmpty": true,
-          "collapseAndTrim": true
+          "trim": true
         }
       }
     },
@@ -2844,9 +2056,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2854,9 +2064,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2864,9 +2072,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2874,9 +2080,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2884,9 +2088,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2894,9 +2096,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2904,9 +2104,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2914,9 +2112,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2924,9 +2120,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2934,9 +2128,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2944,9 +2136,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2954,9 +2144,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2964,9 +2152,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2974,9 +2160,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -2984,29 +2168,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "externalresourcesrequired": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "fill": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3014,29 +2190,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "fillrule": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "filter": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3044,9 +2212,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3054,9 +2220,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3064,9 +2228,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3074,29 +2236,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "focusable": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "fontfamily": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3104,9 +2258,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3114,9 +2266,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3124,9 +2274,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3134,9 +2282,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3144,9 +2290,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3154,9 +2298,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3164,9 +2306,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3174,9 +2314,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3184,9 +2322,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3194,9 +2330,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3204,9 +2338,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3214,9 +2346,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3224,9 +2354,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3234,9 +2362,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3244,9 +2370,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3254,9 +2378,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3264,9 +2386,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3274,9 +2394,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3284,9 +2402,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3294,9 +2410,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3304,9 +2418,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3314,9 +2426,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3324,9 +2434,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3334,9 +2442,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3344,9 +2450,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3354,9 +2458,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3364,9 +2466,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3374,9 +2474,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3384,9 +2482,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3394,9 +2490,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3404,9 +2498,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3414,9 +2506,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3424,9 +2514,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3434,9 +2522,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3444,9 +2530,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3454,9 +2538,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3464,9 +2546,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3474,9 +2554,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3484,9 +2562,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3494,9 +2570,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3504,9 +2578,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3514,9 +2586,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3524,9 +2594,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3534,9 +2602,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3544,9 +2610,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3554,9 +2618,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3564,9 +2626,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3574,9 +2634,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3584,9 +2642,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3594,9 +2650,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3604,9 +2658,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3614,9 +2666,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3624,9 +2674,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3634,9 +2682,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3644,9 +2690,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3654,9 +2698,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3664,9 +2706,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3674,9 +2714,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3684,9 +2722,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3694,9 +2730,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3704,9 +2738,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3714,9 +2746,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3724,9 +2754,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3734,9 +2762,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3744,9 +2770,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3754,9 +2778,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3764,9 +2786,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3774,9 +2794,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3784,9 +2802,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3794,9 +2810,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3804,9 +2818,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3814,9 +2826,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3824,9 +2834,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3834,9 +2842,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3844,9 +2850,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3854,29 +2858,21 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "preservealpha": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "preserveaspectratio": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3884,9 +2880,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3894,9 +2888,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3904,9 +2896,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3914,9 +2904,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3924,9 +2912,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3934,9 +2920,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3944,9 +2928,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3954,9 +2936,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3964,9 +2944,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3974,9 +2952,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3984,9 +2960,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -3994,9 +2968,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4004,9 +2976,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4014,9 +2984,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4024,9 +2992,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4034,9 +3000,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4044,9 +3008,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4054,9 +3016,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4064,9 +3024,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4074,9 +3032,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4084,9 +3040,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4094,9 +3048,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4104,9 +3056,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4114,9 +3064,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4124,9 +3072,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4134,9 +3080,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4144,9 +3088,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4154,9 +3096,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4164,9 +3104,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4174,9 +3112,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4184,9 +3120,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4194,9 +3128,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4204,9 +3136,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4214,9 +3144,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4224,9 +3152,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4234,9 +3160,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4244,39 +3168,27 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
     "strokelinecap": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "strokelinejoin": {
       "html": {},
       "svg": {
-        "*": {
-          "boolean": false,
-          "redundantIfEmpty": false,
-          "collapseAndTrim": false
-        }
+        "*": {}
       }
     },
     "strokemiterlimit": {
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4284,9 +3196,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4294,9 +3204,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4304,9 +3212,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4314,9 +3220,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4324,9 +3228,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4334,9 +3236,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4344,9 +3244,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4354,9 +3252,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4364,9 +3260,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4374,9 +3268,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4384,9 +3276,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4394,9 +3284,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4404,9 +3292,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4414,9 +3300,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4424,9 +3308,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4434,9 +3316,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4444,9 +3324,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4454,9 +3332,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4464,9 +3340,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4474,9 +3348,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4484,9 +3356,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4494,9 +3364,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4504,9 +3372,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4514,9 +3380,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4524,9 +3388,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4534,9 +3396,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4544,9 +3404,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4554,9 +3412,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4564,9 +3420,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4574,9 +3428,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4584,9 +3436,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4594,9 +3444,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4604,9 +3452,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4614,9 +3460,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4624,9 +3468,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4634,9 +3476,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4644,9 +3484,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4654,9 +3492,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4664,9 +3500,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4674,9 +3508,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4684,9 +3516,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4694,9 +3524,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4704,9 +3532,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4714,9 +3540,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4724,9 +3548,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4734,9 +3556,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4744,9 +3564,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4754,9 +3572,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4764,9 +3580,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4774,9 +3588,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4784,9 +3596,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4794,9 +3604,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4804,9 +3612,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4814,9 +3620,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4824,9 +3628,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4834,9 +3636,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4844,9 +3644,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4854,9 +3652,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4864,9 +3660,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     },
@@ -4874,9 +3668,7 @@
       "html": {},
       "svg": {
         "*": {
-          "boolean": false,
-          "redundantIfEmpty": true,
-          "collapseAndTrim": false
+          "redundantIfEmpty": true
         }
       }
     }

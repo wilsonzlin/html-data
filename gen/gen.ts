@@ -15,16 +15,21 @@ import {
   UnionTypeNode,
 } from 'typescript';
 import type Data from '../data/data';
+import YAML from "yaml";
 
 // TODO Consider and check behaviour when value matches case insensitively, after trimming whitespace, numerically (for number values), etc.
 // TODO This file is currently manually sourced and written. Try to get machine-readable spec and automate.
-const defaultAttributeValues: {
+const manualAttrConfig: {
   [attr: string]: {
     tags: string[];
     defaultValue: string;
+    isCaseInsensitive?: boolean;
+    isCollapsible?: boolean;
     isPositiveInteger?: boolean;
+    isRedundantIfEmpty?: boolean;
+    isTrimmable?: boolean;
   }[];
-} = JSON.parse(readFileSync(join(__dirname, 'attrs.json'), 'utf8'));
+} = YAML.parse(readFileSync(join(__dirname, 'attrs.yaml'), 'utf8'));
 
 const tagNameNormalised = {
   'anchor': 'a',
@@ -37,12 +42,6 @@ const attrNameNormalised = {
 const reactSpecificAttributes = [
   'defaultchecked', 'defaultvalue', 'suppresscontenteditablewarning', 'suppresshydrationwarning',
 ];
-
-const collapsibleAndTrimmable = {
-  'class': ['html:*'],
-  'd': ['svg:*'],
-  // WARNING: "style" attribute is not collapsible. It is trimmable though.
-};
 
 // TODO Is escapedText the API for getting name?
 const getNameOfNode = (n: any) => n.name.escapedText;
@@ -62,7 +61,7 @@ const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
   // Use index-based loop to keep iterating as nodes array grows.
   for (let i = 0; i < nodes.length; i++) {
     // forEachChild doesn't work if return value is number (e.g. return value of Array.prototype.push).
-    nodes[i].forEachChild(c => void nodes.push(c));
+    nodes[i]!.forEachChild(c => void nodes.push(c));
   }
 
   const rawAttrData = [];
@@ -93,8 +92,8 @@ const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
     if (!matches) {
       continue;
     }
-    const namespace = matches[2].toLowerCase();
-    const tag = normaliseName(matches[1], tagNameNormalised);
+    const namespace = matches[2]!.toLowerCase();
+    const tag = normaliseName(matches[1]!, tagNameNormalised);
     if (['all', 'webview'].includes(tag)) {
       continue;
     }
@@ -102,7 +101,7 @@ const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
   }
   rawAttrData.sort((a, b) => a.namespace.localeCompare(b.namespace) || a.tag.localeCompare(b.tag));
   // Process global HTML attributes first as they also appear on some specific HTML tags but we don't want to keep the specific ones if they're global.
-  if (rawAttrData[0].namespace !== 'html' || rawAttrData[0].tag !== '') {
+  if (!rawAttrData[0] || rawAttrData[0].namespace !== 'html' || rawAttrData[0].tag !== '') {
     throw new Error(`Global HTML attributes is not first to be processed`);
   }
 
@@ -126,35 +125,45 @@ const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
         ? unionTypes.types.map((t: Node) => t.kind)
         : [assertExists(n.type).kind];
 
-      const boolean = types.includes(SyntaxKind.BooleanKeyword);
-      // If types includes boolean and string, make it a boolean attr to prevent it from being removed if empty value.
-      const redundantIfEmpty = attrName == "style" || (!boolean && types.some(t => t === SyntaxKind.StringKeyword || t === SyntaxKind.NumberKeyword));
-      const defaultValues = (defaultAttributeValues[attrName] || [])
-        .filter(a => a.tags.includes(fullyQualifiedTagName))
-        .map(a => a.defaultValue);
-      const collapseAndTrim = (collapsibleAndTrimmable[attrName] || []).includes(fullyQualifiedTagName);
-      if (defaultValues.length > 1) {
-        throw new Error(`Tag-attribute combination <${fullyQualifiedTagName} ${attrName}> has multiple default values: ${defaultValues}`);
+      const cfgs = manualAttrConfig[attrName]?.filter(a => a.tags.includes(fullyQualifiedTagName));
+      if (cfgs && cfgs.length > 1) {
+        throw new Error(`Tag-attribute combination ${fullyQualifiedTagName}[${attrName}] has multiple configurations`);
       }
+      const cfg = cfgs?.[0];
+
+      const boolean = types.includes(SyntaxKind.BooleanKeyword) || undefined;
+      const caseInsensitive = cfg?.isCaseInsensitive || undefined;
+      const collapse  = cfg?.isCollapsible || undefined;
+      const defaultValue = cfg?.defaultValue || undefined;
+      // If isRedundantOrEmpty is set, use it over the TS definition.
+      // If types includes boolean and string, make it a boolean attr to prevent it from being removed if empty value.
+      const redundantIfEmpty = (cfg?.isRedundantIfEmpty ?? (!boolean && types.some(t => t === SyntaxKind.StringKeyword || t === SyntaxKind.NumberKeyword))) || undefined;
+      const trim = cfg?.isTrimmable || undefined;
       const attr = {
         boolean,
+        caseInsensitive,
+        collapse,
+        defaultValue,
         redundantIfEmpty,
-        collapseAndTrim,
-        defaultValue: defaultValues[0],
+        trim,
       };
 
       const namespacesForAttribute = data.attributes[attrName] ??= {html: {}, svg: {}};
       const tagsForNsAttribute = namespacesForAttribute[namespace] ?? {};
       if (tagsForNsAttribute.hasOwnProperty(tag)) {
-        throw new Error(`Duplicate tag-attribute combination: <${fullyQualifiedTagName} ${attrName}>`);
+        throw new Error(`Duplicate tag-attribute combination: ${fullyQualifiedTagName}[${attrName}]`);
       }
 
       const globalAttr = tagsForNsAttribute['*'];
       if (globalAttr) {
-        if (globalAttr.boolean !== attr.boolean
+        if (
+          globalAttr.boolean !== attr.boolean
+          || globalAttr.collapse !== attr.collapse
+          || globalAttr.caseInsensitive !== attr.caseInsensitive
+          || globalAttr.defaultValue !== attr.defaultValue
           || globalAttr.redundantIfEmpty !== attr.redundantIfEmpty
-          || globalAttr.collapseAndTrim !== attr.collapseAndTrim
-          || globalAttr.defaultValue !== attr.defaultValue) {
+          || globalAttr.trim !== attr.trim
+        ) {
           throw new Error(`Global and tag-specific attributes conflict: ${prettyJson(globalAttr)} ${prettyJson(attr)}`);
         }
       } else {

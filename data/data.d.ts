@@ -1,10 +1,12 @@
 type Namespace = 'html' | 'svg'
 
 type AttrConfig = {
-  boolean: boolean;
-  redundantIfEmpty: boolean;
-  collapseAndTrim: boolean;
+  boolean?: boolean;
+  caseInsensitive?: boolean;
+  collapse?: boolean;
   defaultValue?: string;
+  redundantIfEmpty?: boolean;
+  trim?: boolean;
 };
 
 declare const _data: {
