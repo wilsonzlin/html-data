@@ -1,6 +1,6 @@
 {
   "name": "@wzlin/html-data",
-  "version": "2021080714.0.0",
+  "version": "2021081005.0.0",
   "description": "HTML tags and attributes",
   "main": "data.json",
   "types": "data.d.ts",
