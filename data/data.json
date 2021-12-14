@@ -1,5 +1,13 @@
 {
   "attributes": {
+    "alt": {
+      "html": {
+        "*": {}
+      },
+      "svg": {
+        "*": {}
+      }
+    },
     "accesskey": {
       "html": {
         "*": {
@@ -508,20 +516,6 @@
         },
         "link": {},
         "script": {}
-      },
-      "svg": {}
-    },
-    "alt": {
-      "html": {
-        "area": {
-          "redundantIfEmpty": true
-        },
-        "img": {
-          "redundantIfEmpty": true
-        },
-        "input": {
-          "redundantIfEmpty": true
-        }
       },
       "svg": {}
     },

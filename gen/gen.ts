@@ -49,7 +49,7 @@ const reactSpecificAttributes = [
 // TODO Is escapedText the API for getting name?
 const getNameOfNode = (n: any) => n.name.escapedText;
 const normaliseName = (name: string, norms: { [name: string]: string }) =>
-  mapValue(name.toLowerCase(), (n) => norms[n] || n);
+  mapValue(name.toLowerCase(), (n) => norms[n] ?? n);
 const prettyJson = (val: any) => JSON.stringify(val, null, 2);
 
 const getAsKind = <K extends SyntaxKind, T extends Node & { kind: K }>(
@@ -57,9 +57,23 @@ const getAsKind = <K extends SyntaxKind, T extends Node & { kind: K }>(
   k: K
 ): T | undefined => (n?.kind !== k ? undefined : (n as T));
 
+// These are manually hardcoded here because the React type defs don't have them.
+const additionalAttrs = {
+  alt: {
+    html: {
+      "*": {},
+    },
+    svg: {
+      "*": {},
+    },
+  },
+};
+
 const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
   const data: typeof Data = {
-    attributes: {},
+    attributes: {
+      ...additionalAttrs,
+    },
     tags: { html: [], svg: [] },
   };
 
@@ -212,11 +226,13 @@ const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
           globalAttr.redundantIfEmpty !== attr.redundantIfEmpty ||
           globalAttr.trim !== attr.trim
         ) {
-          throw new Error(
-            `Global and tag-specific attributes conflict: ${prettyJson(
-              globalAttr
-            )} ${prettyJson(attr)}`
+          console.warn(
+            `Tag "${tag}" attribute "${attrName}" will be dropped because it conflicts with global "${attrName}" attribute:`
           );
+          console.table({
+            [`*[${attrName}]`]: globalAttr,
+            [`${tag}[${attrName}]`]: attr,
+          });
         }
       } else {
         tagsForNsAttribute[tag || "*"] = attr;
