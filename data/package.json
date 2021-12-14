@@ -1,6 +1,6 @@
 {
   "name": "@wzlin/html-data",
-  "version": "2021081005.0.0",
+  "version": "2021121401.0.0",
   "description": "HTML tags and attributes",
   "main": "data.json",
   "types": "data.d.ts",
@@ -23,4 +23,3 @@
   },
   "homepage": "https://github.com/wilsonzlin/html-data#readme"
 }
-
