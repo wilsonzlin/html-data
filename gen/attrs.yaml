@@ -125,6 +125,12 @@ type:
     isTrimmable: true # Firefox 90.
     # script[type] has multiple default values (https://mimesniff.spec.whatwg.org/#javascript-mime-type).
 
+value:
+  - tags:
+    - html:option
+    # https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option#attr-value.
+    isRedundantIfEmpty: false
+
 width:
   - tags:
       - html:iframe
