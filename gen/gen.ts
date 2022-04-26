@@ -76,7 +76,9 @@ const additionalAttrs = {
       },
     },
     svg: {
-      "*": {},
+      "*": {
+        boolean: true,
+      },
     },
   },
 };
