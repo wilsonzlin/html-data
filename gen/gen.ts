@@ -57,11 +57,23 @@ const getAsKind = <K extends SyntaxKind, T extends Node & { kind: K }>(
   k: K
 ): T | undefined => (n?.kind !== k ? undefined : (n as T));
 
-// These are manually hardcoded here because the React type defs don't have them.
 const additionalAttrs = {
+  // This is manually hardcoded here because the React type defs don't have them.
   alt: {
     html: {
       "*": {},
+    },
+    svg: {
+      "*": {},
+    },
+  },
+  // This is manually hardcoded here because the React type defs does not consider it a boolean attribute (e.g. has `boolean` subtype), so when we generate we imply it's redundant if empty which is not true.
+  // https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin.
+  crossorigin: {
+    html: {
+      "*": {
+        boolean: true,
+      },
     },
     svg: {
       "*": {},
@@ -186,7 +198,7 @@ const processReactTypeDeclarations = (source: SourceFile): typeof Data => {
       const collapse = cfg?.isCollapsible || undefined;
       const defaultValue = cfg?.defaultValue || undefined;
       // If isRedundantOrEmpty is set, use it over the TS definition.
-      // If types includes boolean and string, make it a boolean attr to prevent it from being removed if empty value.
+      // If types includes boolean and string, consider it a boolean attr to prevent it from being removed if empty value.
       const redundantIfEmpty =
         (cfg?.isRedundantIfEmpty ??
           (!boolean &&

@@ -127,7 +127,7 @@ type:
 
 value:
   - tags:
-    - html:option
+      - html:option
     # https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option#attr-value.
     isRedundantIfEmpty: false
 

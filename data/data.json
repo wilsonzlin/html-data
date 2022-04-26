@@ -8,6 +8,16 @@
         "*": {}
       }
     },
+    "crossorigin": {
+      "html": {
+        "*": {
+          "boolean": true
+        }
+      },
+      "svg": {
+        "*": {}
+      }
+    },
     "accesskey": {
       "html": {
         "*": {
@@ -1087,26 +1097,6 @@
         }
       },
       "svg": {}
-    },
-    "crossorigin": {
-      "html": {
-        "img": {},
-        "input": {
-          "redundantIfEmpty": true
-        },
-        "link": {
-          "redundantIfEmpty": true
-        },
-        "media": {
-          "redundantIfEmpty": true
-        },
-        "script": {
-          "redundantIfEmpty": true
-        }
-      },
-      "svg": {
-        "*": {}
-      }
     },
     "decoding": {
       "html": {
