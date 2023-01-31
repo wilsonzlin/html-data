@@ -363,23 +363,13 @@
     },
     "href": {
       "html": {
-        "a": {
-          "redundantIfEmpty": true
-        },
-        "area": {
-          "redundantIfEmpty": true
-        },
-        "base": {
-          "redundantIfEmpty": true
-        },
-        "link": {
-          "redundantIfEmpty": true
-        }
+        "a": {},
+        "area": {},
+        "base": {},
+        "link": {}
       },
       "svg": {
-        "*": {
-          "redundantIfEmpty": true
-        }
+        "*": {}
       }
     },
     "hreflang": {

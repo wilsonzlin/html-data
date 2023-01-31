@@ -43,6 +43,16 @@ height:
     defaultValue: "150"
     isPositiveInteger: true
 
+href:
+  - tags:
+      - html:a
+      - html:area
+      - html:base
+      - html:link
+      - svg:*
+    # An empty href makes that element clickable/focusable, and also simply links to the current page.
+    isRedundantIfEmpty: false
+
 importance:
   - tags:
       - html:iframe
